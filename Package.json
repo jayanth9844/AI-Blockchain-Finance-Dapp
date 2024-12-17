@@ -1,0 +1,23 @@
+{
+    "name": "defi-lending-platform",
+    "version": "1.0.0",
+    "dependencies": {
+      "@truffle/hdwallet-provider": "^2.1.15",
+      "dotenv": "^16.3.1",
+      "web3": "^4.1.2",
+      "truffle": "^5.11.5",
+      "react": "^18.2.0",
+      "react-dom": "^18.2.0",
+      "web3-react": "^5.0.5"
+    },
+    "scripts": {
+      "start": "react-scripts start",
+      "build": "react-scripts build",
+      "compile": "truffle compile",
+      "migrate": "truffle migrate",
+      "test": "truffle test"
+    },
+    "devDependencies": {
+      "react-scripts": "^5.0.1"
+    }
+  }
